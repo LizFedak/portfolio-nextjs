@@ -13,6 +13,8 @@ export default function Customcard({project}) {
                     <Image
                     src={project.images[0]}
                     className="h-full w-full object-cover"
+                    fill={true}
+                    alt={project.name}
                     />
                 </motion.div>
                 </div>

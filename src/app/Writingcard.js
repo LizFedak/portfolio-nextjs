@@ -13,6 +13,8 @@ export default function Writingcard({project}) {
                     <Image
                     src={project.logo}
                     className="h-full w-full object-contain"
+                    fill={true}
+                    alt={project.name}
                     />
                 </motion.div>
                 </div>

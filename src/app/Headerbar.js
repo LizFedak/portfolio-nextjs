@@ -7,7 +7,10 @@ export function Headerbarold({user}) {
         <section className="items-center p-3 max-w-1120 bg-white w-full flex flex-row justify-between border border-slate-600 rounded-full">
             <div className="flex flex-row justify-start gap-3 items-center">
                 <div className="rounded-full w-12 h-12 overflow-hidden">
-                    <Image src={user.avatar}></Image>
+                    <Image src={user.avatar}
+                    fill={true}
+                    alt={project.name}
+                    ></Image>
                     
                 </div>
                 <div className="flex flex-col">
