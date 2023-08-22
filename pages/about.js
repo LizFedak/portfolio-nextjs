@@ -2,5 +2,7 @@ import React from "react";
 
 
 export default function Page() {
-    return <div>ABOUT PAGE</div>
+    return <div>
+        About page
+    </div>
 }

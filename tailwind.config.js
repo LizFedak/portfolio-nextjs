@@ -20,7 +20,7 @@ module.exports = {
     extend: {
       maxWidth: {
         1120: "1120px",
-        90: "90%"
+        85: "85%"
       }
       
     },

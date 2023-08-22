@@ -6,7 +6,7 @@ export default function Writinglist({writinglist, title}) {
         <div className="m-auto bg-white w-full mb-10">
             <Listtitle title={title}/>
 
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-10 xs:gap-5">
                 {writinglist.map((article, index) => (
                     <Writingcard key={index} project={article} />
                 ))}

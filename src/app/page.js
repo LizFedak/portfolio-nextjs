@@ -7,7 +7,7 @@ import Headerbar from './components/Headerbar';
 import Headersection from './components/Headersection';
 import Writinglist from './components/Writinglist'
 import Cardlist from './components/Cardlist'
-
+import Productlist from './components/Cardproductlist'
 
 let user = {
   name: "Liz Fedak",
@@ -17,10 +17,10 @@ let user = {
 
 export default function App() {
   return (
-    <div className="xl:max-w-1120 lg:max-w-90 md:max-w-90 sm:max-w-90 xs:max-w-90 m-auto bg-white">
+    <div className="xl:max-w-1120 lg:max-w-85 md:max-w-85 sm:max-w-85 xs:max-w-85 m-auto bg-white">
         <Headerbar user={user}/>
         <Headersection></Headersection>
-        <Cardlist list={products} title={"Products"}></Cardlist>
+        <Productlist list={products} title={"Products"}></Productlist>
         <Cardlist list={projects} title={"Projects"}></Cardlist>
         <Writinglist writinglist={writing} title={"Writing"}></Writinglist>
     </div>
