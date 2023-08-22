@@ -6,7 +6,7 @@ let products = [
   Other users needed to bulk sell licenses that could be used for employees to register and gain access to pay wall content.Another use case involved simply requiring a login on top of paywall content so that a fraction of content was visible, but the rest was only visible if you were logged in, or marketing collateral could only be downloaded if you were authenticated for lead gen purposes.`,
       tags: [
         "Supabase API",
-        "Serverless Functions",
+        "Google Cloud Serverless Functions",
         "JavaScript",
         "HTML",
         "Handlebars",
@@ -28,12 +28,17 @@ let products = [
   
   Overall, this is an easy-to-use directory builder for displaying data visually with filter, search, and print functionality. Whether you're looking to create a location-search map, product listing page, business directory, member directory, event listings, blog site, real estate listing page, or job listing page, this solution makes it easy to showcase your data in style on your websites.`,
       tags: [
-        "Supabase API",
-        "Serverless Functions",
+        "Google Cloud Serverless Functions",
+        "Airtable",
+        "Google Maps JavaScript API",
+        "Google Maps Places API",
+        "jQuery",
         "JavaScript",
         "HTML",
         "Handlebars",
-        "CSS"
+        "CSS",
+        "React - In progress upgrade",
+        "Tailwind CSS - In progress upgrade"
       ],
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/filter.png","https://irp.cdn-website.com/530aeed4/dms3rep/multi/mapExample.svg"],
       url: "/filter-builder",
@@ -42,11 +47,9 @@ let products = [
     {
       name: "Airtable as a Headless Blog Solution",
       tags: [
-        "Supabase API",
-        "Serverless Functions",
+        "Airtable",
         "JavaScript",
         "HTML",
-        "Handlebars",
         "CSS"
       ],
       images: ["https://lirp.cdn-website.com/530aeed4/dms3rep/multi/opt/airtable2-1920w.png"],

@@ -7,8 +7,8 @@ const projects = [
       url: "https://www.wildlifetrackercolorado.com/"
     }, 
     {
-      name: "Eyravegur 34",
-      description: "Multi-Unit Apartment Viewer: Interactive SVG Hover Unit Finder with Dynamic Lightbox",
+      name: "Multi-Unit Apartment Viewer: Interactive SVG Hover Unit Finder with Dynamic Lightbox",
+      description: "",
       tools: "JavaScript, jQuery, Handlebars, CSS, Bunny CDN, Airtable API",
       images: ["https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F70e0f0e3fc5bc2dffa6507c2d45292ad.cdn.bubble.io%2Ff1652961207560x668713719866347500%2Feyravegur-preview.jpg"],
       url: "https://www.eyravegur34.is/til-solu/eyravegur-34a"
@@ -23,14 +23,14 @@ const projects = [
     {
       name: "Vacation Booking with Hostfully API Integration",
       description: "Mission Beach Villas had their search and booking flows isolated, causing their customers to have to click page by page until they found an available unit. Using Hostfully's booking API, I built out a search UI that queries results based on availability and selected criteria, so Mission Beach Villas could have more successful bookings and happier customers.",
-      tools: "",
+      tools: "Hostfully API, Google Cloud Functions, Google Maps API, Google Mapis Places API, JavaScript, jQuery, CSS, HTML, Handlebars",
       url: "https://www.missionbeachvillas.com/listings",
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/missionbeach.jpg"]
     },
     {
       name: "Reading Rock – Nationwide Building Materials Supplier Search",
       description: "Reading Rock's website was unmanagebale and broken. Reading Rock distributes hundreds of products nationwide, but the product they sell in each zip code is unique to the distributor serving the zip code and the customer type. They needed a complex filter option that would only render filter options based on the criteria for the zipcode and customer type. To quickly filter over thousands of available zip codes and data pairings, I brought in the data using a compressed data format. The rest is done via custom JavaScript classes. They also needed to change the displayed filters and keep dropdowns locked until earlier criteria were filled in, so I used JS event listeners to manipulate changes.",
-      tools: "",
+      tools: "Bunny CDN, Google Cloud Serverless Functions, JavaScript, File Web API, HTML, CSS",
       url: "https://www.missionbeachvillas.com/listings",
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/reading-rock.jpg"]
     },

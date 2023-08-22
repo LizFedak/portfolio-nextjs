@@ -1,21 +1,20 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Link from 'next/link'
-import Image from 'next/image'
 
 
-function Tag({tag}) {
-    console.log(tag)
+
+function Tag({tag, index}) {
+    
     return (
-        <div className="bg-sky-500 rounded text-white w-auto inline-flex p-1">{tag}</div>
+        <div key={index} className="bg-sky-500 rounded text-white w-auto inline-flex p-1">{tag}</div>
     )
 }
 
-export default function Customcard({project}) {
-    let tags = project.tags.map(tag => <Tag tag={tag}/>)
+export default function Customcard({project, index}) {
+    let tags = project.tags.map((tag, index) => <Tag key={index} index={index} tag={tag}/>)
 
 
-    return (<Link href={project.url}>
+    return (<Link key={index} index={index} href={project.url}>
         <section className="flex flex-col h-full align-start shadow-md p-5">
             
             
