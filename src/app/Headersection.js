@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from 'next/link'
 
 export default function Headersection() {
     return (
@@ -8,7 +9,7 @@ export default function Headersection() {
             <div>I'm an expert JavaScript developer experienced in crafting responsive web plugins, business automations, and API integrations.
             </div>
             <button className="my-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-fit">
-                <a href="/about">About Me →</a>
+                <Link href="/about">About Me →</Link>
             </button>
         </section>
     )

@@ -1,14 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Customcard({project}) {
-    return (<a href={project.url}>
+    return (<Link href={project.url}>
         <section className="flex flex-col h-full">
             
             <div className="w-full">
                 <div className="relative h-64 overflow-hidden">
                 <motion.div whileHover={{ scale: 1.1 }} className="h-full w-full">
-                    <img
+                    <Image
                     src={project.images[0]}
                     className="h-full w-full object-cover"
                     />
@@ -21,7 +23,7 @@ export default function Customcard({project}) {
                 </div>
             </div>
             
-        </section></a>
+        </section></Link>
     );
 }
   
