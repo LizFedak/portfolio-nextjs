@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
+import Link from 'next/link'
+import Image from 'next/image'
 
 export function Headerbarold({user}) {
     return (
         <section className="items-center p-3 max-w-1120 bg-white w-full flex flex-row justify-between border border-slate-600 rounded-full">
             <div className="flex flex-row justify-start gap-3 items-center">
                 <div className="rounded-full w-12 h-12 overflow-hidden">
-                    <img src={user.avatar}></img>
+                    <Image src={user.avatar}></Image>
+                    
                 </div>
                 <div className="flex flex-col">
                     <div className="text-black text-lg">{user.name}</div>
@@ -28,9 +31,9 @@ export default function Headerbar({user}) {
     return (
         <section className="justify-end items-end my-10 bg-white w-full flex flex-row justify-between">
             <div className="flex flex-row justify-end gap-3 items-end w-full">
-                <a href="#Products">Products</a>
-                <a href="#Projects">Projects</a>
-                <a href="#Writing">Writing</a>
+                <Link href="#Products">Products</Link>
+                <Link href="#Projects">Projects</Link>
+                <Link href="#Writing">Writing</Link>
             </div>    
         </section>
     )
