@@ -1,14 +1,13 @@
 'use client';
-import React, {useState} from "react";
-import Customcard from './Customcard';
-import Writingcard from './Writingcard';
+import React from "react";
 import projects from './content/projects'
 import products from './content/products'
 import writing from './content/writing'
-import Headerbar from './Headerbar';
-import Headersection from './Headersection';
-import Writinglist from './Writinglist'
-import Cardlist from './Cardlist'
+import Headerbar from './components/Headerbar';
+import Headersection from './components/Headersection';
+import Writinglist from './components/Writinglist'
+import Cardlist from './components/Cardlist'
+
 
 let user = {
   name: "Liz Fedak",

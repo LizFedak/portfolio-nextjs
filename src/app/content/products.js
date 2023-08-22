@@ -1,11 +1,11 @@
 let products = [
     {
-      name: "Multi-Unit Apartment Viewer: Interactive SVG Hover Unit Finder with Dynamic Lightbox",
+      name: "Custom Authentication Suite",
       description: `When it comes to adding membership functionality to static site builders, most solutions charge 5% transaction fees, or they are not that extensible. However, most agencies that are adding authentication to their websites needed special customizations, like free trials, multiple tiers, dynamically edited profiles, and more. This feature set was missing from the Duda ecosystem, so I built out a custom integration that I could fully customize as needed depending on each agency's use case.
   For example, some agencies need the sign up to trigger the automatic deployment and assignment of a new website, so I integrated an API flow that triggers the required account creation, site creation, and assignment within the website builder ecosystem.
   Other users needed to bulk sell licenses that could be used for employees to register and gain access to pay wall content.Another use case involved simply requiring a login on top of paywall content so that a fraction of content was visible, but the rest was only visible if you were logged in, or marketing collateral could only be downloaded if you were authenticated for lead gen purposes.`,
       tools: "Supabase API, Google Cloud Serverless Functions, JavaScript, HTML, Handlebars, CSS",
-      images: [],
+      images: ["/images/auth.jpg"],
       url: "/custom-authentication-suite"
     },
     {
