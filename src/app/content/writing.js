@@ -84,7 +84,7 @@ const writing = [
       url: "https://lizfedak.medium.com/learn-oop-the-fun-way-build-a-command-line-frogger-game-5785c05ab0f"
     },
     {
-      name: "Create Duda sites directly from a Content Snare from using webhooks, the Duda API, and Vercel",
+      name: "Create Duda sites directly from a Content Snare form using webhooks, the Duda API, and Vercel",
       logo: "https://irp.cdn-website.com/530aeed4/dms3rep/multi/medium.png",
       source: "Medium",
       url: "https://lizfedak.medium.com/create-duda-sites-directly-from-a-content-snare-from-using-webhooks-the-duda-api-and-vercel-fb446537eca3"
