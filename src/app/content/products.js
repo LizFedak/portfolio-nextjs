@@ -37,8 +37,8 @@ let products = [
         "HTML",
         "Handlebars",
         "CSS",
-        "React - In progress upgrade",
-        "Tailwind CSS - In progress upgrade"
+        "React - In progress migration",
+        "Tailwind CSS - In progress migration"
       ],
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/filter.png","https://irp.cdn-website.com/530aeed4/dms3rep/multi/mapExample.svg"],
       url: "https://www.widgetpro.io/dynamic-widgets/all-in-one-filter-widget",

@@ -3,12 +3,14 @@ import React from "react";
 import projects from './content/projects'
 import products from './content/products'
 import writing from './content/writing'
+import reviews from './content/reviews'
 import Headerbar from './components/Headerbar';
 import Headersection from './components/Headersection';
 import Writinglist from './components/Writinglist'
 import Cardlist from './components/Cardlist'
 import Productlist from './components/Cardproductlist'
-
+import Testimoniallist from './components/Testimoniallist'
+console.log(reviews, 'x')
 let user = {
   name: "Liz Fedak",
   title: "Software Engineer",
@@ -23,6 +25,7 @@ export default function App() {
         <Productlist list={products} title={"Products"}></Productlist>
         <Cardlist list={projects} title={"Projects"}></Cardlist>
         <Writinglist writinglist={writing} title={"Writing"}></Writinglist>
+        <Testimoniallist list={reviews} title={"Testimonials"}></Testimoniallist>
     </div>
   );
 }

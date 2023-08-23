@@ -14,11 +14,25 @@ const projects = [
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/zerow.jpg"]
     },
     {
+      name: "DIY Website Sign-Up",
+      description: "Church Web Builder needed a solution for their clients to self-sign up for a website service. I provided a custom authentication and checkout flow that gave users a free trial period then rolled them into a subscription.",
+      tools: "JavaScript, Supabase API, Duda API, Google Cloud Serverless Functions, HTML, CSS",
+      images: ["/images/cwb.jpg"],
+      url: "https://www.churchwebbuilder.io/"
+    },
+    {
       name: "Vacation Booking with Hostfully API Integration",
       description: "Mission Beach Villas had their search and booking flows isolated, causing their customers to have to click page by page until they found an available unit. Using Hostfully's booking API, I built out a search UI that queries results based on availability and selected criteria, so Mission Beach Villas could have more successful bookings and happier customers.",
       tools: "Hostfully API, Google Cloud Functions, Google Maps API, Google Mapis Places API, JavaScript, jQuery, CSS, HTML, Handlebars",
       url: "https://www.missionbeachvillas.com/listings",
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/missionbeach.jpg"]
+    },
+    {
+      name: "Dynamically Generating Tabs for Varying Material Information",
+      description: "",
+      tools: "JavaScript, HTML, CSS, Google Cloud Serverless Functions, Airtable API",
+      images: ["/images/rrtabs.jpg"],
+      url: "https://www.readingrock.com/product/flex-arches?userType=Professional"
     },
     {
       name: "Reading Rock – Nationwide Building Materials Supplier Search",
