@@ -1,4 +1,11 @@
 const projects = [
+  {
+    name: "Bulk License Purchase with User Registration for Directory Access - Stripe and Supabase Integrations",
+    description: "Coming soon.",
+    tools: "JavaScript, Stripe API, Supabase API, Google Cloud Serverless Functions, Airtable",
+    images: ["/images/ministry.png"],
+    url: "https://www.fresnometmin.org/making-connections-online"
+  },
     {
       name: "Colorado Mountain Lion Tracker",
       description: `The mountain community of Nederland, CO and surrounding areas were experiencing a high number of mountain lion encounters and residents were on edge. Locals were sharing descriptions of the locations, but it was hard to understand where those locations mapped to due to the winding back roads innate to mountain living. I made this Google Map integration so locals could easily submit new sightings that could be rendered immediately on the map. I also set up a Slack network for instant information sharing. The map displays a color-coded lion, which is calculated based on the encounter date, to make it visually easy to see where immediatey threats are locations.`,
@@ -14,14 +21,14 @@ const projects = [
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/zerow.jpg"]
     },
     {
-      name: "DIY Website Sign-Up",
+      name: "DIY Website Sign-Up - Stripe API, Supabase API and Duda API Integrations",
       description: "Church Web Builder needed a solution for their clients to self-sign up for a website service. I provided a custom authentication and checkout flow that gave users a free trial period then rolled them into a subscription.",
       tools: "JavaScript, Supabase API, Duda API, Google Cloud Serverless Functions, HTML, CSS",
       images: ["/images/cwb.jpg"],
       url: "https://www.churchwebbuilder.io/"
     },
     {
-      name: "Vacation Booking with Hostfully API Integration",
+      name: "Vacation Booking Search - Hostfully API Integration",
       description: "Mission Beach Villas had their search and booking flows isolated, causing their customers to have to click page by page until they found an available unit. Using Hostfully's booking API, I built out a search UI that queries results based on availability and selected criteria, so Mission Beach Villas could have more successful bookings and happier customers.",
       tools: "Hostfully API, Google Cloud Functions, Google Maps API, Google Mapis Places API, JavaScript, jQuery, CSS, HTML, Handlebars",
       url: "https://www.missionbeachvillas.com/listings",
