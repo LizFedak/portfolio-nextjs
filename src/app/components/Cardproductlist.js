@@ -3,7 +3,7 @@ import Listtitle from './Listtitle';
 
 export default function Productlist({list, title}) {
     return (
-        <div className="bg-white">
+        <div className="">
         <Listtitle title={title}/>
 
         <div className="grid grid-cols-1 gap-10">

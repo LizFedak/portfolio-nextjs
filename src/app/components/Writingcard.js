@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Writingcard({project}) {
     return (<Link href={project.url} className="h-auto">
-        <section className="flex flex-row h-auto shadow-md rounded-xl items-center justify-between w-auto p-5">
+        <section className="bg-white flex flex-row h-auto shadow-md rounded-xl items-center justify-between w-auto p-5">
             
             <div className="flex flex-row items-center">
                 <div className="relative h-10 w-10 overflow-hidden">

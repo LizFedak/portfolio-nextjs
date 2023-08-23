@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Customcard({project}) {
     return (<Link href={project.url}>
-        <section className="flex flex-col h-full">
+        <section className="flex flex-col h-full ">
             
             <div className="w-full">
                 <div className="relative h-64 overflow-hidden">

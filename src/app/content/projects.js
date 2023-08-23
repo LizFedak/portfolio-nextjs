@@ -7,13 +7,6 @@ const projects = [
       url: "https://www.wildlifetrackercolorado.com/"
     }, 
     {
-      name: "Multi-Unit Apartment Viewer: Interactive SVG Hover Unit Finder with Dynamic Lightbox",
-      description: "",
-      tools: "JavaScript, jQuery, Handlebars, CSS, Bunny CDN, Airtable API",
-      images: ["https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F70e0f0e3fc5bc2dffa6507c2d45292ad.cdn.bubble.io%2Ff1652961207560x668713719866347500%2Feyravegur-preview.jpg"],
-      url: "https://www.eyravegur34.is/til-solu/eyravegur-34a"
-    }, 
-    {
       name: "Custom Eco-Product Search/Filter",
       description: "",
       tools: "JavaScript, jQuery, Handlebars, CSS, Bunny CDN, Airtable API",
@@ -41,6 +34,13 @@ const projects = [
       images: ["/images/semphn.jpg"],
       url: "https://www.semphn.org.au/services-and-resources"
     },
+    {
+      name: "Multi-Unit Apartment Viewer: Interactive SVG Hover Unit Finder with Dynamic Lightbox",
+      description: "",
+      tools: "JavaScript, jQuery, Handlebars, CSS, Bunny CDN, Airtable API",
+      images: ["https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F70e0f0e3fc5bc2dffa6507c2d45292ad.cdn.bubble.io%2Ff1652961207560x668713719866347500%2Feyravegur-preview.jpg"],
+      url: "https://www.eyravegur34.is/til-solu/eyravegur-34a"
+    }
   ]
 
   export default projects;

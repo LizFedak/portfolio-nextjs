@@ -17,7 +17,7 @@ let user = {
 
 export default function App() {
   return (
-    <div className="xl:max-w-1120 lg:max-w-85 md:max-w-85 sm:max-w-85 xs:max-w-85 xxs:max-w-85  m-auto bg-white">
+    <div className="xl:max-w-1120 lg:max-w-85 md:max-w-85 sm:max-w-85 xs:max-w-85 xxs:max-w-85 m-auto">
         <Headerbar user={user}/>
         <Headersection></Headersection>
         <Productlist list={products} title={"Products"}></Productlist>

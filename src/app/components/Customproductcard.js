@@ -15,7 +15,7 @@ export default function Customcard({project, index}) {
 
 
     return (<Link key={index} index={index} href={project.url}>
-        <section className="flex flex-col h-full align-start shadow-md p-5">
+        <section className="flex flex-col h-full align-start shadow-md p-5 bg-white">
             
             
                     <div className="text-black text-xl mt-1 mb-2 font-medium">{project.name}</div>

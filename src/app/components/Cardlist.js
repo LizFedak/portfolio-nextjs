@@ -3,7 +3,7 @@ import Listtitle from './Listtitle';
 
 export default function Cardlist({list, title}) {
     return (
-        <div className="bg-white">
+        <div className="">
         <Listtitle title={title}/>
 
         <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-10">

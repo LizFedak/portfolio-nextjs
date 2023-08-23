@@ -22,6 +22,9 @@ module.exports = {
       maxWidth: {
         1120: "1120px",
         85: "85%"
+      },
+      colors: {
+        'tantan':'#FDFDF7'
       }
       
     },

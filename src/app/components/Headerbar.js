@@ -32,9 +32,9 @@ export function Headerbarold({user}) {
 
 export default function Headerbar({user}) {
     return (
-        <section className="justify-end items-end my-10 bg-white w-full flex flex-row justify-between">
+        <section className="justify-end items-end my-10 w-full flex flex-row justify-between">
             <div className="flex flex-row justify-end gap-3 items-end w-full">
-                <Link href={"/files/resume.pdf"}>Resume</Link>
+                <Link href={"https://docs.google.com/document/d/1jqcAiYASVmJO7BvC9En_0IwQyEdFndo5NwOXDMpTXUo/edit?usp=sharing"}>Resume</Link>
                 <Link href="#Products">Products</Link>
                 <Link href="#Projects">Projects</Link>
                 <Link href="#Writing">Writing</Link>
