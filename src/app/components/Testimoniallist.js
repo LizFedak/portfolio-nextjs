@@ -3,7 +3,7 @@ import Listtitle from './Listtitle';
 
 export default function Testimoniallist({list, title}) {
     return (
-        <div className="">
+        <div className="mb-5">
         <Listtitle title={title}/>
 
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-10">
