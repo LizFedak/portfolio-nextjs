@@ -59,6 +59,30 @@ let products = [
   The original headache that web agencies faced included limited blog post pages on their websites due to platform limitations, lack of permission controls in adding users to the website to edit blog posts, and more. This solution alleviates all of those issues by creating a separate publish environment for blog content.`,
   url: "https://www.widgetpro.io/dynamic-widgets/airtable-dynamic-rich-text-converter",
   shortdescription: "Revolutionizes agency workflows: Airtable-based solution empowers easy blog updates, controlled contributor access, Markdown conversion with custom widget, and seamless styling for enhanced web content management."
+    },
+    {
+      name: "Dynamic DataTables Integration",
+      tags: [
+        "JavaScript",
+        "DataTables Library",
+        "CSS"
+      ],
+      images: ["/images/dattables.png"],
+      description: ``,
+  url: "https://www.widgetpro.io/dynamic-widgets/connected-data-table",
+  shortdescription: "Instantly customize data in a responsive table using the Dynamic DataTables widget. Highlighted features: customization of controls, print and copy options, flexible column order, and dynamic date and print content for layouts."
+    },
+    {
+      name: "Dynamic Calendar",
+      tags: [
+        "FullCalendar Library",
+        "Add To Calendar Library",
+        "JavaScript"
+      ],
+      images: ["/images/cal.png"],
+      description: ``,
+  url: "https://www.widgetpro.io/dynamic-calendar-widget",
+  shortdescription: "A versatile calendar integrates Airtable, Google Sheets, and custom databases, showcasing all-day, timed, and multi-day events. Various views (calendar, pinboard, agenda), customizable defaults, search, and filters enhance event management."
     }
   ]
 
