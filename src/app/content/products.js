@@ -41,7 +41,7 @@ let products = [
         "Tailwind CSS - In progress upgrade"
       ],
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/filter.png","https://irp.cdn-website.com/530aeed4/dms3rep/multi/mapExample.svg"],
-      url: "/filter-builder",
+      url: "https://www.widgetpro.io/dynamic-widgets/all-in-one-filter-widget",
       shortdescription: `I created the All-in-One Filter Builder for web agencies, enabling easy custom directory setup using Airtable or Google Sheets as a database. Interactive, user-friendly, and adaptable for diverse content presentations with optional add-ons.`
     },
     {

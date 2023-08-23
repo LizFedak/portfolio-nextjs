@@ -38,7 +38,7 @@ const projects = [
       name: "Hospital Network Resource Finder",
       description: `Plural Agency in Australia took on a hospital network client (PHN), and needed custom funcitonality built out to simplify how website visitors would access educational resources and materials. We collaborated from Boulder to Melbourne to create this new search experience. Plural Agency provided a design layout, and I handled all of the coding implementation. The widget includes autocomplete search and dropdowns for topic and type.`,
       tools: "JavaScript, jQuery, HTML, Handlebars, CSS",
-      images: [],
+      images: ["/images/semphn.jpg"],
       url: "https://www.semphn.org.au/services-and-resources"
     },
   ]

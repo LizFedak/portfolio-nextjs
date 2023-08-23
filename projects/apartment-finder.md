@@ -1,6 +1,6 @@
 ---
-title: "This is a title"
+title: "Check back soon for a case study"
 date: "2023-08-22"
 ---
-# This is h1
-This is some content
+
+# Check back soon for a case study

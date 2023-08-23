@@ -20,7 +20,7 @@ export default function Customcard({project}) {
                 </div>
                 <div className="py-4">
                     <div className="text-black mt-1 mb-2 font-medium">{project.name}</div>
-                    <div className="text-black mb-8 font-normal whitespace-break-spaces">{project.description}</div>
+                    {/* <div className="text-black mb-8 font-normal whitespace-break-spaces">{project.description}</div> */}
                     <div className="text-black mb-8 font-normal"><span className="font-semibold">Tools:</span> {project.tools}</div>
                 </div>
             </div>
