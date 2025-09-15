@@ -6,7 +6,7 @@ export default function CustomAuthenticationSuite() {
       <h2 className="text-xl font-semibold mb-2">Custom Authentication Suite</h2>
       <p className="mb-4 text-gray-700">
         I built a custom Supabase authentication suite for Duda/static site builders. 
-        Each implementation is different, but I've integrated Stripe membership checkout, 
+        Each implementation is different, but I have integrated Stripe membership checkout, 
         Stripe multiple product checkouts, free sign ups, and protected content configurations.
       </p>
       <div className="flex flex-wrap gap-2">
