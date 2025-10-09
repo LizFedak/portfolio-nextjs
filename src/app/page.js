@@ -10,7 +10,8 @@ import Writinglist from './components/Writinglist'
 import Cardlist from './components/Cardlist'
 import Productlist from './components/Cardproductlist'
 import Testimoniallist from './components/Testimoniallist'
-console.log(reviews, 'x')
+import LatestWork from './components/LatestWork';
+
 let user = {
   name: "Liz Fedak",
   title: "Software Engineer",
@@ -22,6 +23,7 @@ export default function App() {
     <div className="xl:max-w-1120 lg:max-w-85 md:max-w-85 sm:max-w-85 xs:max-w-85 xxs:max-w-85 m-auto">
         <Headerbar user={user}/>
         <Headersection></Headersection>
+        <LatestWork></LatestWork>
         <Productlist list={products} title={"Products"}></Productlist>
         <Cardlist list={projects} title={"Projects"}></Cardlist>
         <Writinglist writinglist={writing} title={"Writing"}></Writinglist>
