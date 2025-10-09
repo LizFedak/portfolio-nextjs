@@ -20,7 +20,7 @@ export default function LatestProject({
   url = "https://www.undertheflatirons.com/family/boulder-kids-activities",
   notesUrl = "https://github.com/LizFedak/under-the-flatirons-og",
   repoUrl = "https://github.com/LizFedak/under-the-flatirons-og",
-  coverImage = "/images/underFatsImg.png",
+  coverImage = "/images/underFlatsImg.png",
   stats = {
     posts: 0,
     events: 0,
