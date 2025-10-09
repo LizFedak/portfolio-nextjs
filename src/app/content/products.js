@@ -82,7 +82,7 @@ let products = [
       images: ["/images/cal.png"],
       description: ``,
   url: "https://www.widgetpro.io/dynamic-calendar-widget",
-  shortdescription: "A versatile calendar integrates Airtable, Google Sheets, and custom databases, showcasing all-day, timed, and multi-day events. Various views (calendar, pinboard, agenda), customizable defaults, search, and filters enhance event management."
+  shortdescription: "A versatile calendar integrates Airtable, Google Sheets, and custom databases, showcasing all-day, timed, and multi-day events. Various views (calendar, pinboard, agenda), customizable defaults, search, and filters enhance event management.A versatile calendar integrates Airtable, Google Sheets, and custom databases, showcasing all-day, timed, and multi-day events. Various views (calendar, pinboard, agenda), customizable defaults, search, and filters enhance event management."
     }
   ]
 
