@@ -20,13 +20,13 @@ const projects = [
       url: "https://www.zerowasted.co.uk/zero-wasted-best-buys",
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/zerow.jpg"]
     },
-    {
-      name: "DIY Website Sign-Up - Stripe API, Supabase API and Duda API Integrations",
-      description: "Church Web Builder needed a solution for their clients to self-sign up for a website service. I provided a custom authentication and checkout flow that gave users a free trial period then rolled them into a subscription.",
-      tools: "JavaScript, Supabase API, Duda API, Google Cloud Serverless Functions, HTML, CSS",
-      images: ["/images/cwb.jpg"],
-      url: "https://www.churchwebbuilder.io/"
-    },
+    // {
+    //   name: "DIY Website Sign-Up - Stripe API, Supabase API and Duda API Integrations",
+    //   description: "Church Web Builder needed a solution for their clients to self-sign up for a website service. I provided a custom authentication and checkout flow that gave users a free trial period then rolled them into a subscription.",
+    //   tools: "JavaScript, Supabase API, Duda API, Google Cloud Serverless Functions, HTML, CSS",
+    //   images: ["/images/cwb.jpg"],
+    //   url: "https://www.churchwebbuilder.io/"
+    // },
     {
       name: "Vacation Booking Search - Hostfully API Integration",
       description: "Mission Beach Villas had their search and booking flows isolated, causing their customers to have to click page by page until they found an available unit. Using Hostfully's booking API, I built out a search UI that queries results based on availability and selected criteria, so Mission Beach Villas could have more successful bookings and happier customers.",
