@@ -11,7 +11,7 @@ const projects = [
       description: `The mountain community of Nederland, CO and surrounding areas were experiencing a high number of mountain lion encounters and residents were on edge. Locals were sharing descriptions of the locations, but it was hard to understand where those locations mapped to due to the winding back roads innate to mountain living. I made this Google Map integration so locals could easily submit new sightings that could be rendered immediately on the map. I also set up a Slack network for instant information sharing. The map displays a color-coded lion, which is calculated based on the encounter date, to make it visually easy to see where immediatey threats are locations.`,
       tools: "JavaScript, Handlebars, CSS, Google Maps API, Slack, Airtable",
       images: ["https://irp.cdn-website.com/530aeed4/dms3rep/multi/mountainlions.jpg"],
-      url: "https://www.wildlifetrackercolorado.com/"
+      url: "http://colorado-wildlife-tracker.adminportal.io/"
     }, 
     {
       name: "Custom Eco-Product Search/Filter",
