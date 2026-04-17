@@ -278,7 +278,7 @@ function Hero() {
         maxWidth: 600, lineHeight: 1.75,
         marginBottom: "3rem",
       }}>
-        Postman repositioned around a platform solution this year — and the sales motion that came with it required real, running infrastructure. We didn't have a demo engineering team, and no one gave us an environment. SEs were standing up local Docker containers and the shared account was a mess. I took it on: a centrally managed, cloud-hosted environment with real Kubernetes clusters, live API traffic, and every platform feature wired up and demo-ready — built solo, at a pace that would normally take a team.
+        Postman repositioned around a platform solution this year — and the sales motion that came with it required real, running infrastructure. We didn&rsquo;t have a demo engineering team, and no one gave us an environment. SEs were standing up local Docker containers and the shared account was a mess. I took it on: a centrally managed, cloud-hosted environment with real Kubernetes clusters, live API traffic, and every platform feature wired up and demo-ready — built solo, at a pace that would normally take a team.
       </p>
 
       {/* Meta strip */}
@@ -393,12 +393,12 @@ function ProblemSection() {
             </strong>
             . Walking into a deal and demoing governance over a messy, un-governed account
             was a fundamental credibility problem. We were arguing the value of our product
-            while accidentally proving we didn't use it ourselves.
+            while accidentally proving we didn&rsquo;t use it ourselves.
           </Prose>
           <Prose style={{ marginTop: "1.25rem" }}>
             There was also a velocity issue. New SEs spent weeks building their own demo
             services — time that should have been spent selling. And crucially, our demo
-            accounts weren't always in sync with what was actually shipping in
+            accounts weren&rsquo;t always in sync with what was actually shipping in
             production.
           </Prose>
           <Prose>
@@ -808,7 +808,7 @@ function AISection() {
       </div>
 
       <QuoteBlock cite="— Liz Fedak, on the prompt generator approach">
-        &ldquo;The trick wasn't just using AI — it was knowing when to prompt AI to
+        &ldquo;The trick wasn&rsquo;t just using AI — it was knowing when to prompt AI to
         produce prompts, rather than prompting it directly for outputs. That meta-layer
         compressed 11 services worth of work into a systematic, repeatable process and 
         enabled me roll out these services within 3 days from concept to execution.&rdquo;
@@ -828,7 +828,7 @@ const results = [
   {
     accent: t.green,
     title: "Dramatically faster onboarding",
-    desc: "New SEs no longer have to spend weeks building their own demo environments or rely on tools maintained by other teams that don't always work. They onboard to Brightbox — learning one well-designed retail environment first, then branching into other verticals as they move upmarket. Weeks of setup becomes days of learning.",
+    desc: "New SEs no longer have to spend weeks building their own demo environments or rely on tools maintained by other teams that don&rsquo;t always work. They onboard to Brightbox — learning one well-designed retail environment first, then branching into other verticals as they move upmarket. Weeks of setup becomes days of learning.",
   },
   {
     accent: t.blue,
