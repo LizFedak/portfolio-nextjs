@@ -652,7 +652,7 @@ const features = [
   {
     title: "API Catalog",
     tag: { label: "Command center", color: "purple" },
-    desc: "Governance groups, system environments (dev/staging/prod), service ownership tagging, and multi-source discovery all configured — giving the "birds-eye" enterprise view the platform promises.",
+    desc: "Governance groups, system environments (dev/staging/prod), service ownership tagging, and multi-source discovery all configured — giving the 'birds-eye' enterprise view the platform promises.",
   },
   {
     title: "Postman Insights",
@@ -830,7 +830,7 @@ const results = [
   {
     accent: t.accent,
     title: "Enterprise credibility on day one",
-    desc: "SEs open Brightbox and see a clean, governed API Catalog with real services, real owners, and real runtime data — not personal workspaces and duplicate "accounts-service" APIs. The platform models what we're selling, in the product we're selling it in.",
+    desc: "SEs open Brightbox and see a clean, governed API Catalog with real services, real owners, and real runtime data — not personal workspaces and duplicate 'accounts-service' APIs. The platform models what we're selling, in the product we're selling it in.",
   },
   {
     accent: t.green,
@@ -871,7 +871,7 @@ const nextSteps = [
   {
     num: "04",
     title: "Drift detection + Postman Flows automation",
-    desc: "Wire up deployed Flows for incident intake — webhook-triggered ticket creation and runbook posting when contract drift or latency spikes are detected. Closes the loop on the "governance at scale" narrative.",
+    desc: "Wire up deployed Flows for incident intake — webhook-triggered ticket creation and runbook posting when contract drift or latency spikes are detected. Closes the loop on the 'governance at scale' narrative.",
     tag: "Flows + Jira automation",
   },
 ];
