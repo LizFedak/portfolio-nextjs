@@ -9,7 +9,7 @@ export default function About() {
         <h1>Hi, I’m Liz Fedak<span className="dot">.</span></h1>
         <p>
           I’m a <strong>Solutions Engineer</strong> and full-stack developer building web products that solve real problems. 
-          With 7+ years of experience in React and TypeScript, I specialize in integrating APIs (like monday.com, Duda, etc.) to streamline workflows and automate processes. 
+          With 7+ years of experience, I specialize in integrating APIs (like Airtable, Stripe, Duda, etc.) to streamline workflows and automate processes. 
           I balance *product thinking* with engineering best practices—ensuring solutions are user-centered, responsive, and accessible.
         </p>
       </section>
@@ -17,10 +17,10 @@ export default function About() {
       <section className="skills">
         <h2>Core Skills & Technologies</h2>
         <ul>
-          <li>Full-Stack: React, Next.js, Node.js, TypeScript</li>
-          <li>Integration & APIs: monday.com, Supabase, Stripe, Google Maps</li>
-          <li>Architectures: Serverless (AWS/Cloudflare), GraphQL/REST APIs</li>
-          <li>Product Dev: Requirements gathering, UX & accessibility (WCAG)</li>
+          <li>Full-Stack: Javascript, Next.js, Node.js</li>
+          <li>Integration & APIs: Supabase, Stripe, Google Maps, Airtable</li>
+          <li>Architectures: Serverless (AWS/Cloudflare), REST APIs, EKS, AKS, Docker </li>
+          <li>Product Dev: Requirements gathering, UX & accessibility</li>
         </ul>
       </section>
 
