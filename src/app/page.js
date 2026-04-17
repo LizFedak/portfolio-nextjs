@@ -23,6 +23,8 @@ export default function App() {
     <div className="xl:max-w-1120 lg:max-w-85 md:max-w-85 sm:max-w-85 xs:max-w-85 xxs:max-w-85 m-auto">
         <Headerbar user={user}/>
         <Headersection></Headersection>
+       <p style={{ fontStyle: "italic" }}> Here's what I'm working on lately:</p>
+       <br></br>
         <LatestWork></LatestWork>
         <Productlist list={products} title={"Products"}></Productlist>
         <Cardlist list={projects} title={"Projects"}></Cardlist>
