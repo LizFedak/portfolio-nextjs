@@ -13,7 +13,7 @@ This project includes a full case study covering architecture decisions, AI-acce
   description: `Building a clean, structured recipe experience focused on dietary constraints (starting with gallbladder-friendly meals). Traditional recipe sites are cluttered and difficult to filter for specific health needs, so this project focuses on fast, intuitive search over structured content.
 
 Current MVP includes category filtering, search, and a Sanity-powered content model. Planned features include AI-powered query interpretation (e.g. “low fat dinner under 30 minutes”), dietary adaptation, and personalized recommendations.`,
-  tools: "React, TypeScript, Next.js, Sanity.io, GROQ, Tailwind CSS",
+  tools: "React, TypeScript, Next.js, Sanity.io, Tailwind CSS",
   images: ["/images/gallbladder-friendly-recipe-site.png"], // add screenshot later
   url: "https://gallbladderfriendlyrecipes.com/"
 },
