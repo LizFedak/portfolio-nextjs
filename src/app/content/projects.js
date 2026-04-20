@@ -5,7 +5,7 @@ const projects = [
 
 This project includes a full case study covering architecture decisions, AI-accelerated development workflows, and measurable impact across the SE organization.`,
   tools: "Kubernetes (AWS EKS), Node.js, OpenAPI 3.0, AsyncAPI, Postman API Catalog, Postman CLI, Supabase, Stripe, Istio, Docker, Github Actions",
-  images: ["https://github.com/LizFedak/portfolio-nextjs/blob/f5081458e8eda19e798dfbda43be45a99a86384a/public/images/api%20catalog.png"],
+  images: ["/images/api%20catalog.png"],
   url: "https://www.lizfedak.com/demo-case-study"
 },
   {
@@ -14,7 +14,7 @@ This project includes a full case study covering architecture decisions, AI-acce
 
 Current MVP includes category filtering, search, and a Sanity-powered content model. Planned features include AI-powered query interpretation (e.g. “low fat dinner under 30 minutes”), dietary adaptation, and personalized recommendations.`,
   tools: "React, TypeScript, Next.js, Sanity.io, GROQ, Tailwind CSS",
-  images: ["https://github.com/LizFedak/portfolio-nextjs/blob/f5081458e8eda19e798dfbda43be45a99a86384a/public/images/gallbladder-friendly-recipe-site.png"], // add screenshot later
+  images: ["/images/gallbladder-friendly-recipe-site.png"], // add screenshot later
   url: "https://gallbladderfriendlyrecipes.com/"
 },
   {
