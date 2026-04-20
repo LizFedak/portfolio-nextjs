@@ -1,5 +1,23 @@
 const projects = [
   {
+  name: "Brightbox — Enterprise API Platform Demo Environment (Postman)",
+  description: `Designed and built a production-grade demo platform to support enterprise API sales. Postman's sales motion required demonstrating governance, observability, and CI/CD against real infrastructure — but no shared environment existed. I built Brightbox: a centrally managed Kubernetes-based system with live API traffic, real latency/error signals, and full Postman platform integration. 
+
+This project includes a full case study covering architecture decisions, AI-accelerated development workflows, and measurable impact across the SE organization.`,
+  tools: "Kubernetes (AWS EKS), Node.js, OpenAPI 3.0, AsyncAPI, Postman API Catalog, Postman CLI, Supabase, Stripe, Istio, Docker, Github Actions",
+  images: ["https://github.com/LizFedak/portfolio-nextjs/blob/f5081458e8eda19e798dfbda43be45a99a86384a/public/images/api%20catalog.png"],
+  url: "https://www.lizfedak.com/demo-case-study"
+},
+  {
+  name: "Gallbladder-Friendly Recipe Search (React + Sanity)",
+  description: `Building a clean, structured recipe experience focused on dietary constraints (starting with gallbladder-friendly meals). Traditional recipe sites are cluttered and difficult to filter for specific health needs, so this project focuses on fast, intuitive search over structured content.
+
+Current MVP includes category filtering, search, and a Sanity-powered content model. Planned features include AI-powered query interpretation (e.g. “low fat dinner under 30 minutes”), dietary adaptation, and personalized recommendations.`,
+  tools: "React, TypeScript, Next.js, Sanity.io, GROQ, Tailwind CSS",
+  images: ["https://github.com/LizFedak/portfolio-nextjs/blob/f5081458e8eda19e798dfbda43be45a99a86384a/public/images/gallbladder-friendly-recipe-site.png"], // add screenshot later
+  url: "https://gallbladderfriendlyrecipes.com/"
+},
+  {
     name: "Bulk License Purchase with User Registration for Directory Access - Stripe and Supabase Integrations",
     description: "Coming soon.",
     tools: "JavaScript, Stripe API, Supabase API, Google Cloud Serverless Functions, Airtable",
